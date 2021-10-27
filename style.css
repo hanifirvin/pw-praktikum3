@@ -1,0 +1,45 @@
+body {
+  background-image: url(img/bg.jpeg);
+}
+
+.jumbotron {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  width: 800px;
+  height: 150px;
+  margin: 20px auto;
+  font-weight: bolder;
+  background-position: 10px 0px;
+  color: cadetblue;
+}
+
+.jumbotron .logo {
+  width: 300px;
+  margin: auto;
+}
+
+.jumbotron .logo h1 {
+  position: relative;
+  top: 25px;
+  line-height: 100px;
+  text-align: center;
+  background-color: lightcyan;
+  text-shadow: -10px 10px 0px #00bdbd;
+}
+
+.container {
+  background-color: rgba(245, 245, 245, 0.7);
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+table {
+  margin: auto;
+}
+
+table .kosong {
+  background-color: red;
+  color: white;
+}
